@@ -1,7 +1,10 @@
 use std::{env::current_dir, fs, path::PathBuf};
-pub fn read_trivial(day: u8) -> String {
+
+// Used on tests
+#[allow(dead_code)]
+pub fn read_example(day: u8) -> String {
     let path = PathBuf::from(format!(
-        "{}\\src\\inputs\\{:0>2}-trivial.txt",
+        "{}\\src\\examples\\{:0>2}.txt",
         current_dir().unwrap().display(),
         day
     ));

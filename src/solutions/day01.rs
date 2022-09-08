@@ -32,16 +32,16 @@ fn calculate_window_value(window: &[i32]) -> i32 {
 #[cfg(test)]
 mod test_day1 {
     use super::*;
-    use crate::aoc::read_trivial;
+    use crate::aoc::read_example;
 
     #[test]
     fn test_part_one() {
-        let input = read_trivial(1);
+        let input = read_example(1);
         assert_eq!(part_one(&input).unwrap(), 7);
     }
     #[test]
     fn test_part_two() {
-        let input = read_trivial(1);
+        let input = read_example(1);
         assert_eq!(part_two(&input).unwrap(), 5);
     }
 }
