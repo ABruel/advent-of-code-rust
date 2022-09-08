@@ -20,11 +20,11 @@ function New-Solution ($day) {
 use itertools::Itertools;
 
 pub fn part_one(input: &str) -> Result<i32, ()> {
-    Err()
+    Err(())
 }
 
 pub fn part_two(input: &str) -> Result<i32, ()> {
-    Err()
+    Err(())
 }
 
 #[cfg(test)]
