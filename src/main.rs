@@ -33,6 +33,7 @@ fn main() {
     let args = Args::parse();
     match args.day {
         1 => solve!(solutions::day01, 1),
+        2 => solve!(solutions::day02, 2),
         _ => unimplemented!("day {}", args.day),
     }
 }
